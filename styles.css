@@ -17,7 +17,7 @@
 
 .header > .search-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-left: 12px;
     margin-top: 10px;
@@ -66,6 +66,18 @@
     gap: 10px;
 
     margin-bottom: 12px;
+}
+
+.logo-container .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logo-container .bell {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 
 .logo-container > h4 {
@@ -118,7 +130,24 @@
     font-size: 27px;
 }
 
+.card-container {
+    background-color: #e6edf5;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+}
 
+.card-container .card {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    height: 200px;
+}
 
+.trending-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 
 
